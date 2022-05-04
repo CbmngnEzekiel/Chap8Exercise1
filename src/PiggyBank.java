@@ -15,6 +15,9 @@ public class PiggyBank {
             case 5 ->{
                 addCurrency(25); // quarter
             }
+            default ->{
+                System.out.println("Invalid coin!");
+            }
         }
         
         System.out.println("Success!");
